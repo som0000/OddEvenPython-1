@@ -1,8 +1,16 @@
-print("program to identify if the number is even or odd")
+# program to identify the even/odd state of given number
 
-number = int(input("Enter a number"))
+number = int(input("Enter a number: "))
 
 if number % 2 == 0:
-       print ("The number is even")
+       print ("The entered number is even")
 else:
-       print ("The number is odd")
+       print("The entered number is odd")
+
+number2 = int(input("Enter a number: "))
+
+
+if number2 % 2 == 0:
+       print ("The entered number is even")
+else:
+       print("The entered number is odd"
